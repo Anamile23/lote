@@ -1114,5 +1114,22 @@ input {
     bottom: 40vh;
     left: -30vw;
   }
+  .cuadrilla {
+    display: flex;
+    top: 10vh;
+    margin-left: 10%;
+    width: 90vh;
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+    background: v-bind(fondo_cuadrilla);
+    border: v-bind(bordes);
+    border-radius: 11px;
+    position: absolute;
+    cursor: pointer;
+    padding: 20px;
+    padding-bottom: 40px;
+    margin-top: 1%;
+  }
 }
 </style>
