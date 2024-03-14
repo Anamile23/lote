@@ -1102,13 +1102,7 @@ input {
   background-color: white;
 }
 @media (max-width: 1150) {
-  .opciones {
-    position: relative;
-    left: 175%;
-    width: 30vw;
-    top: 3vh;
-    z-index: 5;
-  }
+
 
   .cuadrilla {
     display: flex;
@@ -1126,6 +1120,14 @@ input {
     padding: 20px;
     padding-bottom: 40px;
     margin-top: 1%;
+  }
+
+  .opciones {
+    position: relative;
+    left: 175%;
+    width: 30vw;
+    top: 3vh;
+    z-index: 5;
   }
 
   .datos {
