@@ -1101,9 +1101,7 @@ input {
 .btn-close {
   background-color: white;
 }
-@media (max-width: 1150) {
-
-
+@media (max-width: 1250) {
   .cuadrilla {
     display: flex;
     top: 10vh;
