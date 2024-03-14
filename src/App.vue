@@ -1109,11 +1109,7 @@ input {
     top: 3vh;
     z-index: 5;
   }
-  .datos {
-    position: relative;
-    bottom: 40vh;
-    left: -30vw;
-  }
+
   .cuadrilla {
     display: flex;
     top: 10vh;
@@ -1130,6 +1126,12 @@ input {
     padding: 20px;
     padding-bottom: 40px;
     margin-top: 1%;
+  }
+
+  .datos {
+    position: relative;
+    bottom: 40vh;
+    left: -30vw;
   }
 }
 </style>
