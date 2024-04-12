@@ -406,7 +406,9 @@ function generarPDF() {
 
 <template>
   <div class="contenedor">
-    <header>TALONARIO</header>
+    <header class="header">
+      <h2 class="titulo-header">TALONARIO</h2>
+    </header>
 
     <div class="opciones">
       <div type="button" data-bs-toggle="modal" data-bs-target="#enlistados">
@@ -839,7 +841,7 @@ header {
   position: relative;
   left: 175%;
   width: 30vw;
-  top: 3vh;
+  top: 100px;
   z-index: 5;
 }
 
@@ -849,6 +851,33 @@ header {
   border-radius: 5px;
   transition: all 1s;
   height: 70px;
+}
+
+.header {
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  background: #014BAE;
+
+}
+
+.titulo-info-talonario {
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+
+
+.titulo-header {
+  color: white;
+  font-size: 45px;
+
 }
 
 .opciones div:hover {
@@ -882,7 +911,7 @@ header {
 
 .datos {
   position: relative;
-  bottom: 55vh;
+  bottom: 130px;
   left: -27vw;
 }
 
